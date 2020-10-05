@@ -1,0 +1,26 @@
+{
+  "name": "fix-pocket-duplicates",
+  "version": "1.0.0",
+  "description": "Find items duplicated in your pocket account",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fcrespo82/fix-pocket-duplicates.git"
+  },
+  "author": {
+    "name": "Fernando Crespo",
+    "email": "fernando82@gmail.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fcrespo82/fix-pocket-duplicates/issues"
+  },
+  "homepage": "https://github.com/fcrespo82/fix-pocket-duplicates#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "open": "^7.3.0"
+  }
+}
