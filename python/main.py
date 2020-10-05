@@ -51,7 +51,7 @@ def authorize(the_code):
     }
     endpoint_authorize = ENDPOINTS["AUTHORIZE"].format(**payload)
     webbrowser.open_new_tab(endpoint_authorize)
-    raw_input("After authorize press ENTER")
+    input("After authorize press ENTER")
 
 def access_token(session, the_code):
     payload = {

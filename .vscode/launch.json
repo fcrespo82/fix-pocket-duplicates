@@ -7,6 +7,15 @@
 			"request": "launch",
 			"program": "main.py",
 			"stopOnEntry": true
+		},
+		{
+			"name": "Launch Program",
+			"program": "${workspaceFolder}/src/index.js",
+			"request": "launch",
+			"skipFiles": [
+				"<node_internals>/**"
+			],
+			"type": "pwa-node"
 		}
 	]
 }

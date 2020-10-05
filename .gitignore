@@ -1,3 +1,5 @@
 secrets.py
 *.pyc
 pocket-code.json
+pocket-auth.json
+node_modules/
