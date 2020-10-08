@@ -10,7 +10,7 @@
 		},
 		{
 			"name": "Launch Program",
-			"program": "${workspaceFolder}/src/index.js",
+			"program": "${workspaceFolder}/javascript/src/index.js",
 			"request": "launch",
 			"skipFiles": [
 				"<node_internals>/**"
