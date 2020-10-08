@@ -4,7 +4,8 @@
   "description": "Find items duplicated in your pocket account",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "format": "prettier --write '{**/*.js,*.js}'"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,8 @@
   "dependencies": {
     "axios": "^0.20.0",
     "open": "^7.3.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.1.2"
   }
 }
