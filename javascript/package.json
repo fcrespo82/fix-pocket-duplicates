@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/fcrespo82/fix-pocket-duplicates#readme",
   "dependencies": {
-    "axios": "^0.20.0",
+    "axios": "^0.21.1",
     "open": "^7.3.0"
   },
   "devDependencies": {
